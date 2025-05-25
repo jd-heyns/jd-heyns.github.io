@@ -6,13 +6,19 @@ export default function App() {
   return (
     <Canvas className="canvas">
       <group>
-        <color attach="background" args={['black']} />
-        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-        <pointLight position={[-10, -10, -10]} />
-        <ambientLight intensity={0.5} />
+        <color attach="background" args={['white']} />
+        <spotLight 
+          position={[10, 10, 10]} 
+          angle={1} 
+          intensity={300} 
+          penumbra={1} 
+          castShadow 
+          shadow-mapSize-width={1024} 
+          shadow-mapSize-height={1024} />
+        <pointLight position={[5, 5, 5]} intensity={1} />
+        <AsciiRenderer fgColor="white" bgColor={"transparent"} invert resolution={0.2} />
         <Torusknot />
       </group>
-
     </Canvas>
   )
 }
