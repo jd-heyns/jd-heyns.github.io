@@ -1,16 +1,23 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
   text-align: center;
 }
 
 body {
   min-height: 100vh;
-  background: linear-gradient(33deg, #2C3930, #3F4F44, #A27B5C 40%, #DCD7C9 80%, #2C3930);
+  background: linear-gradient(33deg, #2C3930, #3F4F44, #A27B5C 40%, #2C3930 80%);
   background-size: 600% 600%;
   animation: gradientMove 32s ease-in-out infinite;
   color: #fff;
+}
+
+::content {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 2rem;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');

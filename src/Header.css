@@ -1,0 +1,38 @@
+.header {
+    position: sticky;
+    font-family: 'Inter', sans-serif;
+    top: 0;
+    padding: 0.5rem 0rem;
+    background: rgba(0, 0, 0, 0.8); /* 80% black opacity */
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.header.hide {
+    transform: translateY(-100%);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
