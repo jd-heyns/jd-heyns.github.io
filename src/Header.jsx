@@ -6,7 +6,7 @@ const navLinks = [
     "Projects",
     "About",
     "Resume",
-    "Contact"
+    "Contact"   
 ];
 
 export default function Header() {
