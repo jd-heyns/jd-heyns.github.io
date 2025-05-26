@@ -7,7 +7,7 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(33deg, #181824, #232946, #ff9100 40%, #232946 80%, #181824);
+  background: linear-gradient(33deg, #2C3930, #3F4F44, #A27B5C 40%, #DCD7C9 80%, #2C3930);
   background-size: 600% 600%;
   animation: gradientMove 32s ease-in-out infinite;
   color: #fff;
