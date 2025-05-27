@@ -1,56 +1,42 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Canvas from "./Canvas";
+import { useRef } from "react";
+import { Physics, useBox } from "@react-three/cannon";
+import { Canvas as ThreeCanvas } from "@react-three/fiber";
 
 const skills = [
   "Industrial Design", "Embedded Systems", "Complex Engineering Analysis",
   "Public Speaking", "Engineering System Design", "SolidWorks", "Product Design",
   "Embedded Software", "Rapid Prototyping", "Computer-Aided Design (CAD)",
-  "Autodesk Fusion 360", "Product Development", "Product Testing",
-  "Computer Literacy", "Engineering Design", "3D Modeling", "Mechatronics",
+  "Autodesk Fusion 360", "Product Development", "Product Testing", "Engineering Design", "3D Modeling", "Mechatronics",
   "Manufacturing", "Robotics", "Research", "Computer Vision", "User-centered Design",
   "Digital Signal Processing", "Image Processing", "Machine Learning",
   "Analytical Skills", "Data Analysis", "Machine Design", "Automation",
   "Computational Fluid Dynamics (CFD)", "Finite Element Analysis (FEA)",
   "Geometric Dimensioning & Tolerancing", "GD&T", "ISO 14001", "ISO 45001",
-  "ASME Standards", "British Standards", "Mechanical Design", "Inspection"
+  "ASME Standards", "British Standards", "Mechanical Design"
 ];
 
-const getRandomPosition = () => ({
-  top: `${Math.random() * 80 + 10}%`,
-  left: `${Math.random() * 80 + 10}%`
-});
 
-export default function BubbleSkills() {
-  const [positions, setPositions] = useState(() =>
-    skills.map(() => getRandomPosition())
-  );
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setPositions(skills.map(() => getRandomPosition()));
-    }, 5000); // re-randomize positions every 5s
-
-    return () => clearInterval(interval);
-  }, []);
-
+const BubbleSkills = () => {
   return (
-    <div className="relative w-full h-[80vh] overflow-hidden bg-gradient-to-br from-blue-50 to-blue-200 rounded-xl p-4">
-      {skills.map((skill, i) => (
-        <motion.div
-          key={skill}
-          initial={positions[i]}
-          animate={positions[i]}
-          transition={{ duration: 4, ease: "easeInOut" }}
-          className="absolute flex items-center justify-center text-sm font-medium bg-blue-500 text-white rounded-full shadow-lg cursor-pointer"
+    <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", padding: "20px", justifyContent: "center", alignItems: "center" }}>
+      {skills.map((skill, index) => (
+        <div
+          key={index}
           style={{
-            width: `${Math.max(8, skill.length * 0.6)}rem`,
-            height: "3rem"
+            borderRadius: "5px",
+            padding: "10px 15px",
+            backgroundColor: "#40534C",
+            boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
           }}
-          whileHover={{ scale: 1.2 }}
         >
           {skill}
-        </motion.div>
+        </div>
       ))}
     </div>
   );
-}
+};
+
+export default BubbleSkills;

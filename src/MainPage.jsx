@@ -24,11 +24,11 @@ const MainPage = () => {
             <section
                 id="about"
                 data-aos="fade-up"
-                style={{ padding: '0.5rem 0', wordBreak: 'break-word', overflowWrap: 'break-word', textAlign: 'left' }}
+                style={{textAlign: 'left' }}
             >
                 <h2>About Me</h2>
                 <p>
-                    Hi, I'm JD Heyns, a Mechanical engineer with experience designing and testing cutting-edge technology for gravitational wave detectors.
+                    I'm a Mechanical engineer with experience designing and testing cutting-edge technology for gravitational wave detectors.
                 </p>
                 <p>
                     I'm passionate about developing multidisciplinary solutions to push the boundaries of engineering.
@@ -38,7 +38,7 @@ const MainPage = () => {
             <section
                 id="experience"
                 data-aos="fade-up"
-                style={{ padding: '2rem 0', wordBreak: 'break-word', overflowWrap: 'break-word', textAlign: 'left' }}
+                style={{textAlign: 'left'}}
             >
                 <h2>Experience</h2>
                 <ul>
@@ -57,7 +57,7 @@ const MainPage = () => {
             <section
                 id="skills"
                 data-aos="fade-up"
-                style={{ padding: '2rem 0', wordBreak: 'break-word', overflowWrap: 'break-word', textAlign: 'left' }}
+                style={{textAlign: 'center' }}
             >
                 <h2>Skills</h2>
                 <BubbleSkills />
@@ -66,11 +66,10 @@ const MainPage = () => {
             <section
                 id="contact"
                 data-aos="fade-up"
-                style={{ padding: '2rem 0', wordBreak: 'break-word', overflowWrap: 'break-word', textAlign: 'left' }}
             >
                 <h2>Contact</h2>
                 <p>
-                    Feel free to reach out via email at <a href="mailto:your.email@example.com">your.email@example.com</a>
+                    Feel free to reach out via email at <a href="mailto:jdheyns@yahoo.com">jdheyns@yahoo.com</a>
                 </p>
             </section>
         </main>

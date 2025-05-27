@@ -6,7 +6,7 @@ export default function App() {
   return (
     <Canvas className="canvas">
       <group>
-        <color attach="background" args={['white']} />
+        <color attach="background" args={['black']} />
         <spotLight 
           position={[10, 10, 10]} 
           angle={0.15} 
