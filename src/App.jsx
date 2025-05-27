@@ -39,7 +39,7 @@ function App() {
           <MainPage />
         </div>
       </main>
-      <div style={{ width: "600px", height: "600px", margin: "0 auto", padding: "1rem" }} data-aos="fade-up">
+      <div style={{ width: "100vw", height: "100vw", maxWidth:"600px", maxHeight: "600px", margin: "0 auto" }} data-aos="fade-up">
         <Canvas />
       </div>
       <Footer data-aos="fade-up" />
