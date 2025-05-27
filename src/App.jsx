@@ -32,7 +32,7 @@ function App() {
             margin: '1rem auto',
             display: 'block'
           }} 
-          data-aos="fade-up"
+          data-aos="zoom-in"
         />
         <h2 style={{ margin: 0, padding: "0.5rem" }} data-aos="zoom-in">Mechanical Engineer</h2>
         <div style={{ width: '100%', position: 'relative', padding: '1rem 0' }}>
