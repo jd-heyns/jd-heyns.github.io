@@ -39,7 +39,7 @@ const ExperienceCard = () => {
                 <img 
                     src="https://media.licdn.com/dms/image/v2/C510BAQFCGqEmSwrc4w/company-logo_100_100/company-logo_100_100/0/1631338994369?e=1753920000&v=beta&t=c52-v3OrF6l27_-KHtUdj9dE47LRvzUKcQm6NjZFaX8" 
                     alt="Company Logo" 
-                    style={{ width: '75px', height: '75px', borderRadius: '5%' }}
+                    style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }}
                 />
             </div>
         
@@ -88,7 +88,7 @@ const ExperienceCard = () => {
                 <img 
                     src="https://media.licdn.com/dms/image/v2/D4E0BAQF5NFl2f9RCSg/company-logo_100_100/company-logo_100_100/0/1666710049094?e=1753920000&v=beta&t=6-XCXww150f2M8V0gAVnmYE8xaC9bGcS_hbN8dVvOM4" 
                     alt="Company Logo" 
-                    style={{ width: '75px', height: '75px', borderRadius: '5%' }} // Rounded corners for the image
+                    style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }} // Rounded corners for the image
                 />
             </div>
         
@@ -128,7 +128,7 @@ const ExperienceCard = () => {
                 <img 
                     src="https://media.licdn.com/dms/image/v2/C560BAQG1KCIGvkLL_Q/company-logo_100_100/company-logo_100_100/0/1631338359091?e=1753920000&v=beta&t=UlYW05DcjFlj06eHicidoL0vbtzALnN3k6F2gfDWNG4" 
                     alt="Company Logo" 
-                    style={{ width: '75px', height: '75px', borderRadius: '5%' }} // Rounded corners for the image
+                    style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }} // Rounded corners for the image
                 />
             </div>
         
@@ -177,7 +177,7 @@ const ExperienceCard = () => {
                 <img 
                     src="https://media.licdn.com/dms/image/v2/D560BAQH-UXRfIDIKug/company-logo_100_100/company-logo_100_100/0/1689799729035/mit_logo?e=1753920000&v=beta&t=Vlk4dH9A9BsT7ztZZeejJylPk7XZRRywvLnx0_RwGQg" 
                     alt="Company Logo" 
-                    style={{ width: '75px', height: '75px', borderRadius: '5%' }} // Rounded corners for the image
+                    style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }} // Rounded corners for the image
                 />
             </div>
             

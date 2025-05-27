@@ -37,9 +37,11 @@ function App() {
         <h2 style={{ margin: 0, padding: "0.5rem" }} data-aos="zoom-in">Mechanical Engineer</h2>
         <div style={{ width: '100%', position: 'relative', padding: '1rem 0' }}>
           <MainPage />
-          <Canvas />
         </div>
       </main>
+      <div style={{ width: "600px", height: "600px", margin: "0 auto", padding: "1rem" }} data-aos="fade-up">
+        <Canvas />
+      </div>
       <Footer data-aos="fade-up" />
     </div>
   )

@@ -84,7 +84,7 @@ const EducationCard = () => {
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                 <div>
                     <h3 className="card-title" style={{ marginTop: '0', marginBottom: '0' }}>
-                        Bachelor's degree - Mechanical and Aeronautical Engineering
+                        Bachelors in Engineering - Mechanical and Aeronautical Engineering
                     </h3>
                     <h2 className="card-subtitle mb-2 text-muted" style={{ marginTop: '0rem' }}>
                         University of Pretoria
