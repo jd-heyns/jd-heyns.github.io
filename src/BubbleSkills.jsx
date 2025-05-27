@@ -30,6 +30,15 @@ const BubbleSkills = () => {
             padding: "10px 15px",
             backgroundColor: "#40534C",
             boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
+            transition: "background-color 0.3s, transform 0.3s",
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.backgroundColor = "#607D8B";
+            e.target.style.transform = "scale(1.1)";
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.backgroundColor = "#40534C";
+            e.target.style.transform = "scale(1)";
           }}
         >
           {skill}

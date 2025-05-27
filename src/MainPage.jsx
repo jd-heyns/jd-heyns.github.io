@@ -1,9 +1,10 @@
 import React from 'react';
-import Canvas from './Canvas';
 import BubbleSkills from './BubbleSkills';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
+import ExperienceCards from './ExperienceCards';
+import EducationCard from './EducationCards';
 
 const MainPage = () => {
     useEffect(() => {
@@ -24,7 +25,7 @@ const MainPage = () => {
             <section
                 id="about"
                 data-aos="fade-up"
-                style={{textAlign: 'left' }}
+                style={{ textAlign: 'left' }}
             >
                 <h2>About Me</h2>
                 <p>
@@ -38,26 +39,18 @@ const MainPage = () => {
             <section
                 id="experience"
                 data-aos="fade-up"
-                style={{textAlign: 'left'}}
+                style={{ textAlign: 'left' }}
             >
                 <h2>Experience</h2>
-                <ul>
-                    <li>
-                        <strong>Project One:</strong>
-                        <p>Description of your first project.</p>
-                    </li>
-                    <li>
-                        <strong>Project Two:</strong>
-                        <p>Description of your second project.</p>
-                    </li>
-                    {/* Add more projects as needed */}
-                </ul>
+                <ExperienceCards />
+                <h2>Education</h2>
+                <EducationCard />
             </section>
 
             <section
                 id="skills"
                 data-aos="fade-up"
-                style={{textAlign: 'center' }}
+                style={{ textAlign: 'center' }}
             >
                 <h2>Skills</h2>
                 <BubbleSkills />
