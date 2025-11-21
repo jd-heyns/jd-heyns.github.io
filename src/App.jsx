@@ -10,7 +10,6 @@ import { useEffect, useLayoutEffect } from 'react';
 
 function App() {
   // Import AOS and initialize it
-
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
