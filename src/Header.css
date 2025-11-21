@@ -3,7 +3,7 @@
     font-family: 'Inter', sans-serif;
     top: 0;
     padding: 0.5rem 0rem;
-    background: rgba(0, 0, 0, 0.5); /* 80% black opacity */
+    background: rgba(20, 11, 38, 0.5);
     z-index: 1000;
     display: flex;
     justify-content: center;

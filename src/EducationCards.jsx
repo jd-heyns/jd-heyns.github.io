@@ -10,7 +10,7 @@ const EducationCard = () => {
         <div 
             className="card-body" 
             style={{ 
-                backgroundColor: 'rgba(0, 0, 0, 0.3)', 
+                backgroundColor: 'rgba(10, 10, 25, 0.3)', 
                 borderRadius: '15px', 
                 padding: '1rem',
                 marginTop: '1rem',
@@ -31,7 +31,7 @@ const EducationCard = () => {
                     </h2>
                 </div>
                 <img 
-                    src="https://media.licdn.com/dms/image/v2/C4E0BAQFuhLQoh5_7yA/company-logo_100_100/company-logo_100_100/0/1640110532212/georgia_institute_of_technology_logo?e=1753920000&v=beta&t=nTL0JijYifpARe4xHVBk6SE2Clgt0f0MfkQZkuQiN00" 
+                    src="public/georgia_institute_of_technology_logo.jpg" 
                     alt="Georgia Tech Logo" 
                     style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }}
                 />
@@ -40,7 +40,7 @@ const EducationCard = () => {
         <div 
             className="card-body" 
             style={{ 
-                backgroundColor: 'rgba(0, 0, 0, 0.3)', 
+                backgroundColor: 'rgba(10, 10, 25, 0.3)', 
                 borderRadius: '15px', 
                 padding: '1rem',
                 marginTop: '1rem',
@@ -61,7 +61,7 @@ const EducationCard = () => {
                     </h2>
                 </div>
                 <img 
-                    src="https://media.licdn.com/dms/image/v2/D560BAQH-UXRfIDIKug/company-logo_100_100/company-logo_100_100/0/1689799729035/mit_logo?e=1753920000&v=beta&t=Vlk4dH9A9BsT7ztZZeejJylPk7XZRRywvLnx0_RwGQg" 
+                    src="public/mit-logo-black-transparent.png" 
                     alt="MIT Logo" 
                     style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }}
                 />
@@ -70,7 +70,7 @@ const EducationCard = () => {
         <div 
             className="card-body" 
             style={{ 
-                backgroundColor: 'rgba(0, 0, 0, 0.3)', 
+                backgroundColor: 'rgba(10, 10, 25, 0.3)', 
                 borderRadius: '15px', 
                 padding: '1rem',
                 marginTop: '1rem',
@@ -91,7 +91,7 @@ const EducationCard = () => {
                     </h2>
                 </div>
                 <img 
-                    src="https://media.licdn.com/dms/image/v2/C560BAQEwUkwIhyTGSA/company-logo_100_100/company-logo_100_100/0/1631390729217?e=1753920000&v=beta&t=4nimY0Sj0lWdbfNQyBNnOgeRbNA-y3z0cX0LlDczalw" 
+                    src="public/up_logo.jpg" 
                     alt="UP Logo" 
                     style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }}
                 />

@@ -29,10 +29,10 @@ const MainPage = () => {
             >
                 <h2>About Me</h2>
                 <p>
-                    I'm a Mechanical engineer with experience designing and testing cutting-edge technology for gravitational wave detectors.
+                    I'm a Mechanical engineer with experience designing and testing ultra-precise mechanical suspension technology for gravitational wave detectors.
                 </p>
                 <p>
-                    I'm passionate about developing multidisciplinary solutions to push the boundaries of engineering.
+                    I'm passionate about developing multidisciplinary solutions to push the boundaries of engineering and company performance.
                 </p>
             </section>
 
@@ -62,7 +62,7 @@ const MainPage = () => {
             >
                 <h2>Contact</h2>
                 <p>
-                    Feel free to reach out via email at <a href="mailto:jdheyns@yahoo.com">jdheyns@yahoo.com</a>
+                    Feel free to reach out via email at <a href="mailto:jdheyns@caltech.edu">jdheyns@caltech.edu</a>
                 </p>
             </section>
         </main>

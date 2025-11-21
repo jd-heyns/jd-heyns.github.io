@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => (
     <footer style={{
-        background: "#222",
+        background: "#140B26",
         color: "#fff",
         textAlign: "center",
         padding: "1.5rem 0",
@@ -33,7 +33,7 @@ const Footer = () => (
             </a>
             |
             <a
-                href="mailto:jdheyns@yahoo.com"
+                href="mailto:jdheyns@calte"
                 style={{ color: "#fff", margin: "0 0.5rem", textDecoration: "none" }}
             >
                 Email
