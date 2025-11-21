@@ -37,7 +37,7 @@ const ExperienceCard = () => {
                     </h5>
                 </div>
                 <img 
-                    src="public/Seal_of_the_California_Institute_of_Technology.svg.png" 
+                    src="/Seal_of_the_California_Institute_of_Technology.svg.png" 
                     alt="Company Logo" 
                     style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }}
                 />
@@ -126,7 +126,7 @@ const ExperienceCard = () => {
                     </h5>
                 </div>
                 <img 
-                    src="public/Investmech-LOGO.png" 
+                    src="/Investmech-LOGO.png" 
                     alt="Investmech Company Logo" 
                     style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)', objectFit: 'cover' }} // Rounded corners for the image
                 />
@@ -175,7 +175,7 @@ const ExperienceCard = () => {
                     </h5>
                 </div>
                 <img 
-                    src="public/mit-logo-black-transparent.png" 
+                    src="/mit-logo-black-transparent.png" 
                     alt="MIT Logo" 
                     style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }} // Rounded corners for the image
                 />

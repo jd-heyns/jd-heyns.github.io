@@ -31,7 +31,7 @@ const EducationCard = () => {
                     </h2>
                 </div>
                 <img 
-                    src="public/georgia_institute_of_technology_logo.jpg" 
+                    src="/georgia_institute_of_technology_logo.jpg" 
                     alt="Georgia Tech Logo" 
                     style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }}
                 />
@@ -61,7 +61,7 @@ const EducationCard = () => {
                     </h2>
                 </div>
                 <img 
-                    src="public/mit-logo-black-transparent.png" 
+                    src="/mit-logo-black-transparent.png" 
                     alt="MIT Logo" 
                     style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }}
                 />
@@ -91,7 +91,7 @@ const EducationCard = () => {
                     </h2>
                 </div>
                 <img 
-                    src="public/up_logo.jpg" 
+                    src="/up_logo.jpg" 
                     alt="UP Logo" 
                     style={{ width: '75px', height: '75px', borderRadius: '5%', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.3)' }}
                 />
