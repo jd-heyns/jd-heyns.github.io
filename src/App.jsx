@@ -20,8 +20,8 @@ function App() {
       <main style={{ flex: 1 }}>
         <h1 style={{ margin: 0, padding: "1rem" }} data-aos="zoom-in">Hi, I'm JD Heyns</h1>
         <img 
-          src="/JDH_profile_pic.avif" 
-          alt="JD Heyns Profile" 
+          src="/picofme.png" 
+          alt="JD Heyns Profile Picture" 
           style={{
             width: '150px',
             height: '150px',
