@@ -32,7 +32,7 @@ const MainPage = () => {
                     I'm a Mechanical engineer with experience designing and testing ultra-precise mechanical suspension technology for gravitational wave detectors.
                 </p>
                 <p>
-                    I'm passionate about developing multidisciplinary solutions to push the boundaries of engineering and company performance.
+                    I'm passionate about developing multidisciplinary solutions to push the boundaries of engineering and organizational performance.
                 </p>
             </section>
 
